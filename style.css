@@ -95,6 +95,7 @@ body{
     border: #f10a0a;
     padding: 24px;
     font-size: 24px;
+    cursor: pointer;
 }
 .parametros-senha__texto{
     padding: 24px;
@@ -103,6 +104,16 @@ body{
     font-size: 24px;
     margin: 0;
 }
+label{
+    font-size: 20px;
+    
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
